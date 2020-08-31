@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/*CSS reset xD ñlasdjfañ*/
+@import '../../normalize.css';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Base Styles*/
+* {
+    font-family: 'Raleway', sans-serif;
+    color:hsl(243, 100%, 93%);
+}
+
+body {
+    height: 100vh;
+    background-image: url(../images/bg-mobile.png);
+    background-size: cover;
+
+    .container {
+        background-color:hsl(228, 56%, 26%);
+
+        .btn {
+            background-color:hsl(229, 57%, 11%);
+        }
+    }
+}
+
+/*Layout Modules!!!*/
+
+.container {
+    width: 90%;
+    margin: 0 5%;
+    padding: 0 10%;
+}
+
+header {
+    .logo {
+        margin-top: 15%;
+    }
+    
+}
+
+main {
+    margin-top: 5%;
+}
